@@ -1,2 +1,4 @@
 # BankManagementSystem
-The Project is based on Bank Management System using SQL. It has a database which contains different tables that hold the values for Customers, Employees, Accounts and Transactions.
+The Project is based on Bank Management System using SQL. It has a database which contains different tables that hold the values for Customers, Employees, Accounts and Transactions. These four tables are mapped to each other using the concept of primary and foreign keys. The customer table holds the information about the customer including a special number given to him (CIF_No) which acts as a primary key. Using this key, we can find details about the customer and various types of accounts maintained by the person. This project is capable of throwing the details of employees who have put through the transaction and the one who has authorized it. By entering the Transaction_ID, we can trace all the details of transaction, like the Account_No, Amount, Balance, Type, Customer details and Employees involved in this process.
+
+![ER](https://github.com/Bhavan-Naik/BankManagementSystem/assets/55109349/2ae422e0-cc45-4b3e-b959-4b27a240dce1)
